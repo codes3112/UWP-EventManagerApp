@@ -1,0 +1,1 @@
+C:\Users\Sneha\Desktop\UWPQuickStart-master\src\UWPQuickStart\UWPQuickStart.csproj;arm

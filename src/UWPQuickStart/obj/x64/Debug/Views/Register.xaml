@@ -1,0 +1,59 @@
+﻿<Page
+    x:Class="UWPQuickStart.Views.Register"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UWPQuickStart.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="#002db3">
+        <Grid.Resources>
+
+        </Grid.Resources>
+
+        <Grid VerticalAlignment="Center"
+              Margin="200"
+              Padding="16"
+              Background="LightGray">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <TextBox x:ConnectionId='1' x:Name="txtUserName"
+                         PlaceholderText="Username"
+                         Margin="20"
+                         Height="40"
+                         Grid.Row="0"/>
+            
+            <PasswordBox x:ConnectionId='2' x:Name="txtPassword"
+                         PlaceholderText="Password"
+                         Margin="24"
+                         Height="40"
+                         Grid.Row="1"/>
+            
+            <TextBox x:ConnectionId='3' x:Name="txtEmail"
+                         PlaceholderText="Email"
+                         Height="40"
+                         Margin="24"
+                         Grid.Row="2"
+                                        />
+            <Button x:ConnectionId='4' x:Name="btnRegister"
+                    Content="Register"
+                    Height="40"
+                    Width="350" 
+                    HorizontalAlignment="Stretch"
+                    Margin="24"                                     
+                    Background="Gray"
+                    Grid.Row="4"                          />
+
+        </Grid>
+
+
+
+    </Grid>
+</Page>
+

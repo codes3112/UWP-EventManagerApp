@@ -1,0 +1,1 @@
+C:\Users\Sneha\Documents\DevAppDevelopmentWindows10\UWPApps\UWPQuickStart(final)\src\UWPQuickStart\UWPQuickStart.csproj;x64
